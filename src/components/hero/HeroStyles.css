@@ -2,11 +2,12 @@
     width: 100%;
     height: 100vh;
     background: url('../../assets/squishCal.webp') no-repeat center center/cover;
+    background-size: relative;
 }
 
 .hero .container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: inline-block ;
+    
 }
 
 .hero .content {
@@ -14,8 +15,9 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 1rem;
-    margin-left: 6rem;
+    padding: 6rem;
+    margin-left: 7rem;
+    background-color: aliceblue;
 }
 
 .hero h1 {
@@ -23,7 +25,7 @@
 }
 
 .hero .blue {
-    color: var(--primary-color);
+    color: #3a9ff8;
 }
 
 @media screen and (max-width:940px) {
