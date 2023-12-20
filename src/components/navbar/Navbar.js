@@ -4,6 +4,9 @@ import { FaBars, FaTimes } from 'react-icons/fa'
 import {Link} from 'react-router-dom'
 import './NavbarStyles.css'
 
+import customIcon from '/Users/kelsie13/Documents/GitHub/data-secure-react/src/assets/ICON-2.png';
+
+
 const Navbar = () => {
     const [nav, setNav] = useState(false)
     const handleNav = () => setNav(!nav)
@@ -13,8 +16,8 @@ const Navbar = () => {
         <div name='top' className='navbar'>
             <div className="container">
                 <div className="logo">
-                    <SiDatabricks className='icon' />
-                    <h1>Secured</h1>
+                <img src={customIcon} alt="Custom Icon" className="custom-icon" />
+                    
                 </div>
 
                 <ul className={nav ? 'nav-menu active' : 'nav-menu'}>

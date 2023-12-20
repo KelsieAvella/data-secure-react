@@ -8,7 +8,7 @@
 .footer:before {
     content:'';
     position: absolute;
-    background: url('../../assets/footer-bg.jpg')no-repeat center center/cover;
+    background: url('../../assets/footer.png');
     height: 100%;
     width: 100%;
     z-index: -1;
