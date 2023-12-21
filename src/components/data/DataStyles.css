@@ -8,9 +8,9 @@
 .data:before {
     content: '';
     position: absolute;
-    background: url('../../assets/data-bg.png')no-repeat center center/cover;
+    background: url('../../assets/Squish_Circle_About_Us_Image_4_e0510fdb-5fe4-472e-83d4-5bb91b7237c1_1024x.jpg.webp') center center/cover;
     height: 100%;
-    width: 100%;
+    width: 60%;
     z-index: -1;
 }
 
@@ -18,22 +18,24 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-family: 'PT Sans', sans-serif;
     position: absolute;
     left: 50%;
     top: 30%;
     width: 50%;
+    background-color: rgb(29, 209, 197);
 }
 
 .data .content p {
-    margin: 1rem 0;
+    margin: 0.5rem 0;
 }
 
 @media screen and (max-width: 940px) {
     .data .content {
         left: 0;
         width: 100%;
-        padding: 1rem;
-        background: rgba(255, 255, 255, .7);
+        padding: 6rem;
+   
     }
 }
 

@@ -3,32 +3,36 @@
     height: 100vh;
     background: url('../../assets/squishCal.webp') no-repeat center center/cover;
     background-size: relative;
+    background-position: right;
 }
 
 .hero .container {
-    display: inline-block ;
+    display:inline-flex;
     
 }
 
 .hero .content {
-    height: 75vh;
+    height: 65vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 6rem;
-    margin-left: 7rem;
-    background-color: aliceblue;
+    padding: 4rem;
+    margin-left: 4rem;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    background-color: rgb(40, 221, 212);
+    
 }
 
 .hero h1 {
-    color: #3a9ff8;
+    color: #ffffff;
 }
 
 .hero .blue {
-    color: #3a9ff8;
+    color: #ffffff;
 }
 
-@media screen and (max-width:940px) {
+@media screen and (max-width:900px) {
    .hero .content {
     margin-left: 1rem;
    } 

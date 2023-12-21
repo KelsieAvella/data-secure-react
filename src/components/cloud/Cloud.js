@@ -6,8 +6,8 @@ const Cloud = () => {
         <div className='cloud'>
             <div className="container">
                 <div className="content">
-                    <h2><span>Cloud</span> Security</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus at veritatis quisquam voluptatem nostrum reprehenderit, tempore sint placeat, aperiam alias, facilis voluptate quod itaque deleniti molestiae non odit esse necessitatibus.</p>
+                    <h2><span>Squishapedia</span> Accounts</h2>
+                    <p>When you create an account with us you get to customize your very own profile! A fun way to feel connected with fellow Squishapedia friends.  </p>
                 <div><button>Sign Up</button></div>
                 </div>
             </div>

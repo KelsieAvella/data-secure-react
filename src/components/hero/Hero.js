@@ -8,8 +8,7 @@ const Hero = () => {
                 <div className="content">
                     <h1>All things</h1>
                     <h1 className='blue'>Squish-related</h1>
-                    
-                    <div><button>Learn More</button></div>
+                    <div><button>Start Blogging</button></div>
                 </div>
             </div>
         </div>
