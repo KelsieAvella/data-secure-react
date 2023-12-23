@@ -1,42 +1,130 @@
-.cloud {
-    width: 100%;
-    height: 100vh;
-    position: contain;
-    
+body.cloud-page {
+    margin: 0;
+    padding: 0;
+    background-image: url("/Users/kelsie13/Documents/GitHub/data-secure-react/src/assets/BlueChars.jpg");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'PT Sans', sans-serif;
+    color: #333; /* Adjust text color based on background */
 }
 
-.cloud:before {
-    content: '';
-    position: absolute;
-    background: url('../../assets/profile2.jpg') no-repeat center center/cover;
-    background-size: 70%;
-    background-position-x: right;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
-}
-
-.cloud .content {
-    position: absolute;
-    left: 0;
-    top: 30%;
-    width: 50%;
-    padding: 1rem;
-    background-color: rgb(40, 221, 212);
-}
-
-.cloud h2 {
-    color: #f8f8f8;
-}
-
-.cloud p {
-    color: #f8f8f8;
-    margin: 1rem 0;
+.feed-container {
+    padding-top: 2px; /* Adjust the value based on your navbar height */
+    margin-bottom: 30px;
 }
 
 @media screen and (max-width: 940px) {
-    .cloud .content {
-        left: 0;
-        width: 100%;
+    .feed-container {
+        padding-top: 280px; /* Increase the value for smaller screens with the hamburger menu */
     }
+
+    /* Rest of your existing media query styles... */
 }
+
+.profile-container {
+    max-width: 800px;
+    margin: 80px auto 20px;
+    padding-top: 10px;
+}
+
+/* User profile section */
+.user-profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.user-profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+    object-fit: cover; /* Ensure the image covers the entire container */
+}
+
+.user-info {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.bio {
+    margin-bottom: 20px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+/* Follower/Following count */
+.follow-count {
+    margin-bottom: 20px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+/* Post container */
+.posts-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two posts per row, adjust as needed */
+    gap: 60px; /* Space between posts */
+}
+
+/* Individual post */
+.post {
+    border: 8px solid #ddd;
+    margin-bottom: 80px;
+    padding: 2em;
+    border-radius: 8px;
+    background-color: #fff;
+    font-family: 'PT Sans', sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle box shadow */
+    transition: transform 0.2s ease-in-out; /* Add a slight hover effect */
+}
+
+.post:hover {
+    transform: scale(1.02); /* Scale up the post on hover */
+}
+
+.post img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    object-fit: cover; /* Ensure the image covers the entire container */
+}
+
+.post-caption {
+    font-size: 16px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+/* Title for posts */
+.posts-title {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    margin-bottom: 20px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+/* Additional styles for username in post */
+.post-username {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+/* Additional styles for user profile in post */
+.user-profile-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover; /* Ensure the image covers the entire container */
+}
+
+
+
+
+  
+  
+  

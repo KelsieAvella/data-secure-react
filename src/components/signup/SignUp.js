@@ -6,8 +6,7 @@ const SignUp = () => {
         <div className='signup'>
             <div className="container">
                 <div className="content">
-                    <h2>Squishapedia Accounts</h2>
-                
+                    
                 </div>
             </div>
         </div>

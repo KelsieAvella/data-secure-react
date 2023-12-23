@@ -4,9 +4,7 @@
   --primary-color: rgb(40, 221, 212);
   --primary-dark: #0d2154;
 }
-span {
-  color: var(--primary-color);
-}
+
 
 * {
   box-sizing: border-box;
@@ -16,11 +14,7 @@ span {
 
 body {
   margin: 0;
-  font-family: 'Roboto', 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'PT Sans', sans-serif;
 }
 
 code {

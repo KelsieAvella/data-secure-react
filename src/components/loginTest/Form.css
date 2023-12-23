@@ -1,0 +1,142 @@
+.form-container {
+    margin: 100px auto;
+    width: 1200px;
+    box-shadow: 0 5px 8px 0 rgba(45, 137, 165, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+    position: relative;
+    border-radius: 10px;
+    height: 700px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+
+.form-content-left {
+  background-image: url("/Users/kelsie13/Desktop/Thesis/thesis-draft/public/img/SquishCollage.jpg");
+  border-radius: 10px 0 0 10px;
+  position: relative;
+  background-size: cover; /* Ensure the background image covers the entire container */
+  height: 100%; /* Set the height to 100% to cover the entire container */
+}
+
+  .form-img-logo 
+  {
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .form-success {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 80px;
+    color: #fff;
+  }
+
+  .form-content-right {
+    border-radius: 0 10px 10px 0;
+    position: relative;
+    background-image: url("/Users/kelsie13/Desktop/Thesis/thesis-draft/public/img/logo4.png"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: relative;
+  }
+
+  
+  .form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -45%);
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form h1 {
+    font-size: 1rem;
+    text-align: start;
+    width: 80%;
+    margin-bottom: 1rem;
+    color: #fff;
+  }
+  
+  .form-inputs {
+    margin-bottom: 0.5rem;
+    width: 80%;
+  }
+  
+  .form-inputs p {
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    color: #f00e0e;
+  }
+  
+  .form-label {
+    display: inline-block;
+    font-size: 0.8rem;
+    margin-bottom: 6px;
+    color: #fff;
+  }
+  
+  .form-input {
+    display: block;
+    padding-left: 10px;
+    outline: none;
+    border-radius: 2px;
+    height: 40px;
+    width: 100%;
+    border: none;
+  }
+  
+  .form-input::placeholder {
+    color: #595959;
+    font-size: 12px;
+  }
+  
+  .form-input-btn {
+    width: 80%;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 7px;
+    background: linear-gradient(
+      90deg,
+      rgb(250, 250, 72) 0%,
+      rgb(173, 65, 205) 100%
+    );
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+  }
+  /*
+  .form-input-btn:hover {
+    cursor: pointer;
+    background: linear-gradient(
+      90deg,
+      rgb(222, 242, 75) 0%,
+      rgb(238, 119, 59) 100%
+    );
+    transition: all 0.4s ease-out;
+  }
+  */
+  .form-input-login {
+    font-size: 1rem;
+    margin-top: 10px;
+    color: #fff;
+    width: 80%;
+    text-align: center;
+  }
+  
+  .form-input-login a {
+    font-size: 1rem;
+    margin-top: 10px;
+    color: rgb(12, 61, 221);
+    width: 80%;
+    text-align: center;
+  }

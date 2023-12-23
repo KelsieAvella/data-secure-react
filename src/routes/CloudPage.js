@@ -7,9 +7,10 @@ import Footer from '../components/footer/Footer'
 const CloudPage = () => {
     return (
         <>
-           <Navbar /> 
+           <Navbar/>
            <Cloud />
            <Footer />
+       
         </>
     )
 }

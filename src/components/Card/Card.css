@@ -1,9 +1,9 @@
 .card {
     width: 600px;
-    background-image:url("/Users/kelsie13/Documents/GitHub/login-page/about-page/public/logo4 copy.png");
+    background-image:url("/Users/kelsie13/Documents/GitHub/data-secure-react/src/assets/logo4test.png");
     background-size: cover;
     background-position:  top center;
-    height: 800px;
+    height: 700px;
     border-radius: 1rem;
     padding: 2rem;
     
@@ -12,7 +12,7 @@
   }
   
   
-  @media only screen and (max-width: 620px) {
+  @media only screen and (max-width: 1220px) {
     .card {
       width: 90vw;
       padding-left: 1.5rem;
@@ -20,7 +20,7 @@
     }
   }
   
-  @media only screen and (max-height: 670px) {
+  @media only screen and (max-height: 6120px) {
     .card {
       height: 650px;
     }

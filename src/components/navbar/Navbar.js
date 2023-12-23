@@ -22,10 +22,9 @@ const Navbar = () => {
                 <ul className={nav ? 'nav-menu active' : 'nav-menu'}>
                     <li><Link to='/'>Home</Link></li>
                     <li><Link to='/recovery'>Feed</Link> </li>
-                    <li><Link to='/cloud'>Profile</Link></li>
-                    <li><Link to='/contact'>Our Mission</Link></li>
+                    <li><Link to='/cloud'>My Profile</Link></li>
                     <li><Link to='/signup'>Sign Up</Link></li>
-                    <li><Link to='/login'>Log in</Link></li>
+                    <li><Link to='/contact'>Contact</Link></li>
                     
                 </ul>
                 <div className="hamburger" onClick={handleNav}>
