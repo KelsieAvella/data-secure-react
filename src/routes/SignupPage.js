@@ -1,17 +1,17 @@
 import React from 'react'
-import Contact from '../components/contact/Contact'
+import SignUp from '../components/signup/SignUp'
 import Footer from '../components/footer/Footer'
 import Navbar from '../components/navbar/Navbar'
-import Login from '../components/login/FormSignup'
 
-const ContactPage = () => {
+
+const SignupPage = () => {
     return (
         <>
             <Navbar/>
-            <Contact />
+            <SignUp />
             <Footer />   
         </>
     )
 }
 
-export default ContactPage
+export default SignupPage

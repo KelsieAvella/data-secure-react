@@ -15,3 +15,8 @@ const CloudPage = () => {
 }
 
 export default CloudPage
+
+
+/*
+ <Route path="/" exact component={Data} />
+                <Route path="/signup" component={SignUp} /> {/* Define a route for the SignUp page */

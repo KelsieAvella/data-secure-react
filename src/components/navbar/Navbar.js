@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import { SiDatabricks } from 'react-icons/si'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import {Link} from 'react-router-dom'
 import './NavbarStyles.css'
@@ -25,7 +24,9 @@ const Navbar = () => {
                     <li><Link to='/recovery'>Feed</Link> </li>
                     <li><Link to='/cloud'>Profile</Link></li>
                     <li><Link to='/contact'>Our Mission</Link></li>
-                    <button>Log in</button>
+                    <li><Link to='/signup'>Sign Up</Link></li>
+                    <li><Link to='/login'>Log in</Link></li>
+                    
                 </ul>
                 <div className="hamburger" onClick={handleNav}>
                     {!nav ? (<FaBars className='icon' />) : (<FaTimes className='icon' />)}

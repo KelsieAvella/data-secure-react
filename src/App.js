@@ -4,7 +4,7 @@ import Hero from './components/hero/Hero';
 import Navbar from './components/navbar/Navbar';
 import Cloud from './components/cloud/Cloud'
 import Footer from './components/footer/Footer';
-
+import Login from './components/login/Form'
 function App() {
   return (
     <>
@@ -13,6 +13,8 @@ function App() {
       <Data />
       <Cloud />
       <Footer />
+     
+      
     </>
   );
 }
