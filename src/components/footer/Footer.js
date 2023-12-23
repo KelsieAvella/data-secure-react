@@ -5,6 +5,7 @@ import { FiMail, FiFacebook, FiGithub, FiInstagram, FiLinkedin, FiDribbble } fro
 import './FooterStyles.css'
 
 import { Link } from 'react-scroll'
+import customIcon from '/Users/kelsie13/Documents/GitHub/data-secure-react/src/assets/ICON-2.png';
 
 const Footer = () => {
     return (
@@ -12,8 +13,8 @@ const Footer = () => {
             <div className="container">
                 <div className="top">
                     <div className="logo-footer">
-                        <SiDatabricks className='icon' />
-                        <h2>Secured.</h2>
+                    <img src={customIcon} alt="Custom Icon" className="custom-icon" />
+                        
                     </div>
                     <Link activeClass="active" to="top" spy={true} smooth={true} duration={500} >
                         <BsFillArrowUpCircleFill className='icon' />
@@ -53,13 +54,7 @@ const Footer = () => {
                         <h3>Join Our Team</h3>
                         <input type="email" placeholder='Enter your email' />
                         <FiMail className='mail-icon' />
-                        <div className="social-group">
-                            <FiInstagram className='social-icon' />
-                            <FiFacebook className='social-icon' />
-                            <FiLinkedin className='social-icon' />
-                            <FiDribbble className='social-icon' />
-                            <FiGithub className='social-icon' />
-                        </div>
+                    
                     </form>
                 </div>
             </div>

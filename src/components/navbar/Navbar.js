@@ -25,7 +25,7 @@ const Navbar = () => {
                     <li><Link to='/recovery'>Feed</Link> </li>
                     <li><Link to='/cloud'>Profile</Link></li>
                     <li><Link to='/contact'>Our Mission</Link></li>
-                    <button>Sign in</button>
+                    <button>Log in</button>
                 </ul>
                 <div className="hamburger" onClick={handleNav}>
                     {!nav ? (<FaBars className='icon' />) : (<FaTimes className='icon' />)}
