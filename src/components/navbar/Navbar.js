@@ -24,7 +24,7 @@ const Navbar = () => {
                     <li><Link to='/recovery'>Feed</Link> </li>
                     <li><Link to='/cloud'>My Profile</Link></li>
                     <li><Link to='/signup'>Sign Up</Link></li>
-                    <li><Link to='/contact'>Contact</Link></li>
+                    <li><Link to='/contact'>Log In</Link></li>
                     
                 </ul>
                 <div className="hamburger" onClick={handleNav}>

@@ -1,8 +1,8 @@
 body.cloud-page {
     margin: 0;
     padding: 0;
-    background-image: url("/Users/kelsie13/Documents/GitHub/data-secure-react/src/assets/BlueChars.jpg");
-    background-size: cover; 
+    background-color: #118ab2;
+    background-image: linear-gradient(319deg, #118ab2 0%, #06d6a0 37%, #40e2f7 70%);
     background-position: center;
     background-repeat: no-repeat;
     font-family: 'PT Sans', sans-serif;

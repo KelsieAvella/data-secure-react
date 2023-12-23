@@ -39,13 +39,13 @@ const LoginForm = () => {
       <div className='contact-container'>
         <div className='contact-form'>
           <form>
-            <h1><span>Login</span></h1>
+            <h1><span>Login </span></h1>
             <div>
-              <label>Username</label>
+              <label>Username     </label>
               <input type='text' placeholder='Enter your username' />
             </div>
             <div>
-              <label>Password</label>
+              <label>Password     </label>
               <input type='password' placeholder='Enter your password' />
             </div>
             <button>Login</button>
