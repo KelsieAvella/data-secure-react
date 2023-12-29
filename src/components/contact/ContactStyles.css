@@ -3,18 +3,17 @@
     width: 100%;
     height: 100vh;
     position: relative; /* Changed to 'relative' */
-    background: url('../../assets/towel.jpeg') no-repeat center center/cover;
-    background-size: 100%;
+    background: url('../../assets/tealLogin.png') no-repeat center center/cover;
+    background-size: 110%;
 }
 
-/* Adjusted styles for the form container */
-.contact-container {
-    display: flex;
+.contact-holder {
+    display: grid;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100vh; /* Adjusted height to 150% of viewport height */
     width: 100%;
-    color: #fff; /* Changed text color to white */
+    color: #fff;
 }
 
 /* Adjusted styles for the form */
@@ -22,9 +21,12 @@
     width: 100%;
     max-width: 700px; /* Increased max-width for a larger form */
     padding: 4rem; /* Increased padding for more spacing */
-    background: rgba(40, 221, 212, 0.9); /* Adjusted background color with alpha */
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+    background-size: fit;
     border-radius: 18px;
-    box-shadow: 0 0 20px rgba(40, 221, 212, 0.3);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.131);
     font-family: 'PT Sans', sans-serif;
 }
 

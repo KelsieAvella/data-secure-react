@@ -36,7 +36,7 @@ import './ContactStyles.css';
 const LoginForm = () => {
   return (
     <div className='contact'>
-      <div className='contact-container'>
+      <div className='contact-holder'>
         <div className='contact-form'>
           <form>
             <h1><span>Login </span></h1>
