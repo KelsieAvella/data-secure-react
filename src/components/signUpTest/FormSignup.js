@@ -163,9 +163,8 @@ const FormSignup = ({ submitForm }) => {
           Sign up
         </button>
         <span className='form-input-login'>
-          Already have an account? Login{' '}
-          <button type="button" onClick={navigateToLoginPage}>
-            here
+          Already have an account?{' '}
+          <button className='form-login-btn' onClick={navigateToLoginPage}> Login Here
           </button>
         </span>
       </form>

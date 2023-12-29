@@ -3,7 +3,9 @@
 .page-container {
   /* Add your styles for the new page container here */
   margin: 0px; /* Example margin */
-  padding: 250px; /* Example padding */
+  padding: 240px;
+  padding-left: 1px; /* Example padding */
+  padding-right: 1px;
   
 }
 
@@ -119,11 +121,12 @@
     height: 50px;
     margin-top: 10px;
     border-radius: 7px;
-    background: linear-gradient(
-      90deg,
-      rgb(250, 250, 72) 0%,
-      rgb(173, 65, 205) 100%
-    );
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    background: rgb(84, 238, 125);
     outline: none;
     border: none;
     color: #fff;
@@ -131,12 +134,17 @@
   }
   
   .form-input-btn:hover {
+    width: 80%;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 7px;
     cursor: pointer;
     background: linear-gradient(
       90deg,
-      rgb(204, 228, 23) 0%,
-      rgb(238, 119, 59) 100%
+      rgb(250, 250, 72) 0%,
+      rgb(173, 65, 205) 100%
     );
+    
     transition: all 0.4s ease-out;
   }
   
@@ -146,6 +154,9 @@
     color: #fff;
     width: 80%;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   
   .form-input-login a {
@@ -154,5 +165,19 @@
     color: rgb(62, 246, 59);
     width: 80%;
     text-align: center;
+  }
+  .form-login-btn 
+  {
+  font-family: 'PT Sans', sans-serif;
+  padding: .7rem 1.5rem;
+  margin: 1rem 0;
+  background-color: rgb(84, 238, 125);
+  border: 1px solid var(--primary-color);
+  color: #f8f8f8;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 4px;
+ 
+  
   }
 
