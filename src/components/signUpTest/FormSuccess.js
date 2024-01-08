@@ -1,6 +1,6 @@
 import React from 'react';
 import './formTest.css';
-import image from '../../assets/camtag.gif';
+import image from '../../assets/circleChars.png';
 import { Link } from 'react-router-dom'; 
 
 const FormSuccess = () => {

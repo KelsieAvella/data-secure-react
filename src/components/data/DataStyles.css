@@ -10,7 +10,7 @@
 .data:before {
     content: '';
     position: absolute;
-    background: url('../../assets/Squish_Circle_About_Us_Image_4_e0510fdb-5fe4-472e-83d4-5bb91b7237c1_1024x.jpg.webp') center center/cover;
+    background: url('../../assets/Squish_Circle.webp') center center/cover;
     height: 100%;
     width: 60%;
     z-index: -1;

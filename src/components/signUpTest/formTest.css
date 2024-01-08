@@ -12,7 +12,7 @@
 
 .form-container {
   margin-top:  auto;
-  width: 1400px;
+  width: 100%;
   max-width: 1400px;
   box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
   border-radius: 16px;
@@ -244,3 +244,11 @@
     );
   }
 
+  @media screen and (max-width: 640px) {
+    .data .content {
+        left: 0;
+        width: 100%;
+        padding: 4rem;
+   
+    }
+}
