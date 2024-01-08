@@ -21,13 +21,13 @@ const Cloud = () => {
     <div className="profile-container">
       {/* User profile section */}
       <div className="user-profile">
-        <img src={profilepic} alt="Profile Picture" className="user-img" />
+        <img src={profilepic} alt="Profile Picture" className="user-profile-pic" />
         <div className="user-info">
           <h2 className="user-name">Squishlover23</h2>
           <p className="bio">Bio: Passionate about squish hunting! 🦄✨</p>
           <div className="follow-count">
-            <span>Followers: 15 </span>
-            <span>Following: 38</span>
+          <span>Followers: 15 </span>
+          <span>Following: 38</span>
           </div>
         </div>
       </div>
@@ -81,5 +81,4 @@ const Cloud = () => {
 };
 
 export default Cloud;
-
 
