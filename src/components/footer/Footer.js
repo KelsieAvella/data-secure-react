@@ -25,33 +25,29 @@ const Footer = () => {
                     <div className="col">
                         <h3>Navigation</h3>
                         <p>Home</p>
-                        <p>Data</p>
-                        <p>Cloud</p>
-                        <p>Contact</p>
+                        <p>Feed</p>
+                        <p>My Profile</p>
+                        <p>Sign Up</p>
+                        <p>Log In</p>
                     </div>
                     <div className="col">
                         <h3>My Account</h3>
-                        <p>Home</p>
-                        <p>Data</p>
-                        <p>Cloud</p>
-                        <p>Contact</p>
+                        <p>Reset Password</p>
+                        <p>Delete Account</p>
+                       
                     </div>
                     <div className="col">
                         <h3>Information</h3>
-                        <p>Home</p>
-                        <p>Data</p>
-                        <p>Cloud</p>
-                        <p>Contact</p>
+                        <p>News</p>
+                       
                     </div>
                     <div className="col">
                         <h3>Legal</h3>
-                        <p>Home</p>
-                        <p>Data</p>
-                        <p>Cloud</p>
-                        <p>Contact</p>
+                        <p>Terms of Service</p>
+                        
                     </div>
                     <form>
-                        <h3>Join Our Team</h3>
+                        <h3>Sign Up for our mailing list</h3>
                         <input type="email" placeholder='Enter your email' />
                         <FiMail className='mail-icon' />
                     

@@ -3,6 +3,7 @@ import './Form.css';
 import FormSignup from './FormSignup';
 import FormSuccess from './FormSuccess.js';
 
+
 const Form = () => {
   const [isSubmitted, setIsSubmitted] = useState(false);
 
@@ -17,7 +18,7 @@ const Form = () => {
         {!isSubmitted ? (
           <FormSignup submitForm={submitForm} />
         ) : (
-          <FormSuccess />
+          <FormSuccess/>
         )}
       </div>
     </>

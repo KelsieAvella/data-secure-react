@@ -7,7 +7,7 @@ const Hero = () => {
             <div className="container">
                 <div className="content">
                     <h1>All things</h1>
-                    <h1 className='blue'>Squish-related</h1>
+                    <h1 className='blue'>Squish-related!</h1>
                     
                 </div>
             </div>

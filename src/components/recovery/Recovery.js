@@ -73,11 +73,11 @@ const Recovery = () => {
     const settings = {
         dots: true,
         infinite: true,
-        speed: 500,
+        speed: 1000,
         slidesToShow: 3,
         slidesToScroll: 3,
         autoplay: true,       // Enable autoplay
-        autoplaySpeed: 4000,  // Set autoplay speed in milliseconds
+        autoplaySpeed: 6000,  // Set autoplay speed in milliseconds
       };
   
     return (

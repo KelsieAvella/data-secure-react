@@ -8,7 +8,7 @@ const Data = () => {
             <div className="container">
                 <div className="content">
                     <h2>About Squishapedia</h2>
-                    <p>A blogging website that lets users share all news and content Squishmallow related. Post about new releases, recent squish purchases and your collection for fellow Squishmallow lovers to view.</p>
+                    <p>A blogging website that lets users share all news and content Squishmallow related. Post about new releases, recent squish purchases and your collection for fellow Squishmallow lovers to view!</p>
                     <div>
                         {/* Use the Link component to create a link to the desired page */}
                         <Link to="/signup">

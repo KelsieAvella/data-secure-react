@@ -78,30 +78,3 @@ const FormSignup = ({ submitForm }) => {
 
 export default FormSignup;
 
-/*
-<div>
-  <span className='form-input-login'>
-    Already have an account? Login <a href='#'>here</a>
-  </span>
-  <button onclick="window.location.href='another_page.html'">
-    Go to Another Page
-  </button>
-</div>
-
-*/
-
-
-/*
-correct code
-
-<button className='form-input-btn' type='submit'>
-          Sign up
-        </button>
-        <span className='form-input-login'>
-          Already have an account? Login <a href='#'>here</a>
-        </span>
-      </form>
-    </div>
-
-
-*/
