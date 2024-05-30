@@ -7,11 +7,17 @@ import Footer from '../components/footer/Footer'
 const CloudPage = () => {
     return (
         <>
-           <Navbar /> 
+           <Navbar/>
            <Cloud />
            <Footer />
+       
         </>
     )
 }
 
 export default CloudPage
+
+
+/*
+ <Route path="/" exact component={Data} />
+                <Route path="/signup" component={SignUp} /> {/* Define a route for the SignUp page */

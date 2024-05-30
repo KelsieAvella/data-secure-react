@@ -8,7 +8,7 @@
 .footer:before {
     content:'';
     position: absolute;
-    background: url('../../assets/footer-bg.jpg')no-repeat center center/cover;
+    background: url('../../assets/footer.png');
     height: 100%;
     width: 100%;
     z-index: -1;
@@ -23,7 +23,7 @@
 
 .footer .top {
     width: 100%;
-    padding: 1rem;
+    padding: 0.5rem;
     display: flex;
     justify-content: space-between;
 }
@@ -36,7 +36,7 @@
 .footer .top .icon {
     font-size: 3rem;
     margin-right: 1rem;
-    color: var(--primary-color);
+    color: rgb(40, 221, 212);
     cursor: pointer;
 }
 
@@ -66,6 +66,7 @@
     width: 100%;
     margin-bottom: .6rem;
     position: relative;
+
 }
 
 .footer form input {
@@ -93,14 +94,6 @@
     cursor: pointer;
 }
 
-.footer form .social-icon {
-    margin: 1rem 1rem 1rem 0;
-    padding: .6rem;
-    background-color: var(--primary-dark);
-    border-radius: 4px;
-    color: #f8f8f8;
-    font-size: 3rem;
-}
 
 
 @media screen and (max-width: 940px) {

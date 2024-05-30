@@ -1,39 +1,150 @@
-.cloud {
-    width: 100%;
-    height: 100vh;
-    position: relative;
-    background: rgba(0, 0, 0, .3);
+body.cloud-page {
+    margin: 0;
+    padding: 0;
+    background-color: #118ab2;
+    background-image: linear-gradient(319deg, #118ab2 0%, #06d6a0 37%, #40e2f7 70%);
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'PT Sans', sans-serif;
+    color: #333; /* Adjust text color based on background */
 }
 
-.cloud:before {
-    content: '';
-    position: absolute;
-    background: url('../../assets/cloud-bg.png') no-repeat center center/cover;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
-}
-
-.cloud .content {
-    position: absolute;
-    left: 0;
-    top: 30%;
-    width: 50%;
-    padding: 1rem;
-}
-
-.cloud h2 {
-    color: #f8f8f8;
-}
-
-.cloud p {
-    color: #f8f8f8;
-    margin: 1rem 0;
+.feed-container {
+    padding-top: 2px; /* Adjust the value based on your navbar height */
+    margin-bottom: 30px;
 }
 
 @media screen and (max-width: 940px) {
-    .cloud .content {
-        left: 0;
-        width: 100%;
+    .feed-container {
+        padding-top: 280px; /* Increase the value for smaller screens with the hamburger menu */
     }
+
+    /* Rest of your existing media query styles... */
 }
+
+.follow-count {
+    margin-bottom: 20px;
+    display: flex; /* Use flex container */
+    align-items: center; /* Align items vertically in the flex container */
+}
+
+.follow-count span {
+    margin-right: 20px; /* Add spacing between the counts, adjust as needed */
+}
+
+.profile-container {
+    max-width: 800px;
+    margin: 80px auto 20px;
+    padding-top: 10px;
+}
+
+/* User profile section */
+.user-profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-family: 'PT Sans', sans-serif;
+}
+.user-profile-pic {
+    width: 200px; /* Adjust to your desired width */
+    height: 250px;/* Adjust to your desired height */
+    margin-top: -100px; 
+    object-fit: cover; /* Adjust the negative margin to move it higher up */
+}
+
+.user-info {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'PT Sans', sans-serif;
+    padding-top: 5px;
+}
+
+.bio {
+    margin-bottom: 20px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+/* Follower/Following count */
+.follow-count {
+    margin-bottom: 20px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+/* Post container */
+.posts-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two posts per row, adjust as needed */
+    gap: 60px; /* Space between posts */
+}
+
+/* Individual post */
+.post {
+  
+    margin-bottom: 80px;
+    padding: 2em;
+    border-radius: 8px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    font-family: 'PT Sans', sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle box shadow */
+    transition: transform 0.2s ease-in-out; /* Add a slight hover effect */
+}
+
+.post-user-info{
+display: flex;
+  align-items: center; /* Align items vertically in the user info section */
+  margin-bottom: 10px;
+}
+
+.post:hover {
+    transform: scale(1.02); /* Scale up the post on hover */
+}
+
+.post img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    object-fit: cover; /* Ensure the image covers the entire container */
+}
+
+.post-caption {
+    font-size: 16px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+/* Title for posts */
+.posts-title {
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    left: 60px;
+    display: flex;
+    margin-bottom: 20px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+
+/* Additional styles for username in post */
+.post-username {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+/* Additional styles for user profile in post */
+.user-profile-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover; /* Ensure the image covers the entire container */
+}
+
+
+
+
+  
+  
+  
