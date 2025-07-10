@@ -1,28 +1,20 @@
-import React from 'react';
-import { Link } from 'react-router-dom';  // Import the Link component
-import './DataStyles.css';
+import React from 'react'
+import './DataStyles.css'
 
 const Data = () => {
     return (
         <div className='data'>
             <div className="container">
                 <div className="content">
-                    <h2>About Squishapedia</h2>
-                    <p>A blogging website that lets users share all news and content Squishmallow related. Post about new releases, recent squish purchases and your collection for fellow Squishmallow lovers to view!</p>
+                    <h2><span>Data</span> Recovery</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi officiis unde perferendis voluptas laborum aliquam culpa officia a maiores porro. Consequuntur officia corporis aliquam numquam, fuga quisquam illo. Obcaecati, voluptatum.</p>
                     <div>
-                        {/* Use the Link component to create a link to the desired page */}
-                        <Link to="/signup">
-                            <button>Sign Up</button>
-                        </Link>
+                        <button>Sign Up</button>
                     </div>
                 </div>
             </div>
         </div>
-    );
+    )
 }
 
-export default Data;
-
-
-
-
+export default Data

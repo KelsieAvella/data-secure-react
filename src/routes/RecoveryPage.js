@@ -7,7 +7,7 @@ import Footer from '../components/footer/Footer'
 const RecoveryPage = () => {
     return (
         <>
-           <Navbar/>
+           <Navbar /> 
            <Recovery />
            <Footer />
         </>
